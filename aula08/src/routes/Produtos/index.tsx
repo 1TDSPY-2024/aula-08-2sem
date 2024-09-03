@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import {listaProdutos} from "../../data/listaProdutos"
 
 
 export default function Produtos(){
 
       //MUDANDO O TÍTULO DA PÁGINA!!!
       document.title = "PRODUTOS";
+
+      const listaProdutosString = localStorage.getItem("lista");
 
     return(
       <div>

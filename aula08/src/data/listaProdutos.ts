@@ -12,7 +12,7 @@ export type TipoProduto = {
 
 }
 
-export const produtosEletronicos: TipoProduto[] = [
+export const listaProdutos : TipoProduto[] = [
     {
         id: 1,
         nome: "Smartphone Galaxy S21",
@@ -174,3 +174,8 @@ export const produtosEletronicos: TipoProduto[] = [
         foto: fotoPadrao
     }
 ];
+}
+
+if(!localStorage.getItem("lista")){
+    localStorage.setItem("lista", JSON.stringify(listaProdutos))
+}
