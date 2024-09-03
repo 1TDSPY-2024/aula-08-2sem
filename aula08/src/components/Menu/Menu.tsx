@@ -5,9 +5,8 @@ export default function Menu(){
     return(
       <Nav>
         <MenuList>
-            <MenuItem> <Link to="/"><MenuLink>Home</MenuLink></Link></MenuItem>
-            <MenuItem><Link to="/produtos"><MenuLink>Produtos</MenuLink></Link></MenuItem>
-            <MenuItem><Link to="/editar/produtos/1"><MenuLink>Editar Produto - 1</MenuLink></Link></MenuItem>
+            <MenuItem> <Link to="/">Home</Link></MenuItem>
+            <MenuItem><Link to="/produtos">Produtos</Link></MenuItem>
         </MenuList>
       </Nav>
     );

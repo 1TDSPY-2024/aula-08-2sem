@@ -165,3 +165,7 @@ export const listaProdutos: TipoProduto[] = [
         foto: fotoPadrao
     }
 ];
+
+if(!localStorage.getItem("lista")){
+    localStorage.setItem("lista", JSON.stringify(listaProdutos));
+}
