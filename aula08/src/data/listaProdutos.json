@@ -1,0 +1,27 @@
+{"listaProdutos":[
+    {
+        "id":1,
+        "nome": "Calça",
+        "preco": 70.80,
+        "foto": "https://upload.wikimedia.org/wikipedia/pt/8/8d/Jailson_Mendes.jpg"
+    },
+    {
+        "id":2,
+        "nome": "Tenis",
+       " preco": 70.80,
+        "foto": "https://upload.wikimedia.org/wikipedia/pt/8/8d/Jailson_Mendes.jpg"
+    },
+    {
+        "id":3,
+        "nome": "Camisa",
+        "preco": 40.80,
+       " foto": "https://upload.wikimedia.org/wikipedia/pt/8/8d/Jailson_Mendes.jpg"
+    },
+    {
+        "id":4,
+       " nome": "Cinto",
+        "preco": 20.80,
+       "foto": "https://upload.wikimedia.org/wikipedia/pt/8/8d/Jailson_Mendes.jpg"
+    }
+]
+}

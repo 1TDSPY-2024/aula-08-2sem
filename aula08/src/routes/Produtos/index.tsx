@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { listaProdutos } from "../../data/listaProdutos";
-
+// import { listaProdutos } from "../../data/listaProdutos";
+import {listaProdutos} from "../../data/listaProdutos.json";
 export default function Produtos(){
 
       //MUDANDO O TÍTULO DA PÁGINA!!!

@@ -17,7 +17,7 @@ export const listaProdutos: TipoProduto[] = [
         {
             id:2,
             nome: "Tenis",
-            preco: 270.80,
+            preco: 70.80,
             foto: imagem_jailson
         },
         {
