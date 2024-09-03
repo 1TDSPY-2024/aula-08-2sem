@@ -1,35 +1,34 @@
-export type TipoProduto = {
-    id:number,
-    nome: string,
-    preco: number,
-    foto : string
-    
-}
-const imagem_jailson = "https://upload.wikimedia.org/wikipedia/pt/8/8d/Jailson_Mendes.jpg";
+import { TipoProduto } from "../types";
+
+const imagem = "https://i.imgflip.com/2/3qfwq1.jpg";
 
 export const listaProdutos: TipoProduto[] = [
         {
             id:1,
             nome: "Calça",
             preco: 70.80,
-            foto: imagem_jailson
+            foto: imagem
         },
         {
             id:2,
             nome: "Tenis",
-            preco: 70.80,
-            foto: imagem_jailson
+            preco: 270.80,
+            foto: imagem
         },
         {
             id:3,
             nome: "Camisa",
             preco: 40.80,
-            foto: imagem_jailson
+            foto: imagem
         },
         {
             id:4,
             nome: "Cinto",
             preco: 20.80,
-            foto: imagem_jailson
+            foto: imagem
         }
-    ]
+    ];
+
+    if(!localStorage.getItem("lista")){
+        localStorage.setItem("lista",JSON.stringify(listaProdutos))
+    }
